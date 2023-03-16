@@ -156,7 +156,7 @@ body {
     accent-color: black;
 }
 
-.login-card button {
+.login-card input {
     background: black;
     color: white;
     padding: 1rem;
@@ -167,7 +167,7 @@ body {
     transition: background .5s;
 }
 
-.login-card button:hover {
+.login-card input:hover {
     background-color: rgba(0, 0, 0, 0.85);
     cursor: pointer;
 }
