@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!---Coding By CodingLab | www.codinglabweb.com--->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--<title>Registration Form in HTML CSS</title>-->
+    <!---Custom CSS File--->
+    <link rel="stylesheet" href="/form/style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <header>Event Form for coding events</header>
+      <form action="#" class="form">
+        <div class="input-box">
+          <label>Event date</label>
+          <input type="text" placeholder="Enter event name" required />
+        </div>
+
+        <div class="column">
+          <div class="input-box">
+            <label>Contact Number</label>
+            <input type="number" placeholder="Enter Contact number" required />
+          </div>
+          <div class="input-box">
+            <label>Date of the event</label>
+            <input type="date" placeholder="Enter date of the event" required />
+          </div>
+        </div>
+        <div class="gender-box">
+          <h3>Gender required</h3>
+          <div class="gender-option">
+            <div class="gender">
+              <input type="radio" id="check-male" name="gender" checked />
+              <label for="check-male">Male</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-female" name="gender" />
+              <label for="check-female">Female</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-other" name="gender" />
+              <label for="check-other">Any</label>
+            </div>
+          </div>
+        </div>
+        <div class="input-box address">
+          <label>Location of the event</label>
+          <div class="column">
+            <div class="select-box">
+              <select>
+                <option hidden>Country</option>
+                <option>America</option>
+                <option>Japan</option>
+                <option>India</option>
+                <option>Nepal</option>
+              </select>
+            </div>
+            <input type="text" placeholder="Enter your city" required />
+          </div>
+          <div class="column">
+            <input type="text" placeholder="Enter your State" required />
+          </div>
+            <br>
+          <label>Is the event online offline</label>
+          <div class="select-box">
+            <select>
+              <option hidden>mode</option>
+              <option>Online</option>
+              <option>Offline</option>
+              <option>Any</option>
+            </select>
+          </div>
+        </div>
+        <br>
+        <div class="coding-box">
+          <h3>Coding skills required</h3>
+          <br>
+          <div class="coding-option">
+            <div class="coding">
+              <input type="checkbox" id="check-html" name="html"/>
+              <label for="check-html">Html</label>
+            <div class="coding">
+              <input type="checkbox" id="check-css" name="css"/>
+              <label for="check-css">CSS</label>
+            <div class="coding">
+              <input type="checkbox" id="check-JS" name="js"/>
+              <label for="check-JS">JS</label>  
+            <div class="coding">
+              <input type="checkbox" id="check-python" name="python"/>
+              <label for="check-python">Python</label>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+            <div class="input-box">
+              <label>Total number of teammates</label>
+              <input type="number" placeholder="total" required />
+            </div>
+            <div class="input-box">
+              <label>Teammates required</label>
+              <input type="number" placeholder="required" required />
+            </div>
+          </div>
+        <button>Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
